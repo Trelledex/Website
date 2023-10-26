@@ -1,0 +1,124 @@
+/* src/Home.css */
+.home {
+    position: relative; /* Set the parent div to relative positioning */
+    height: 84vh;
+    background: url('../../assets/imgs/homebg.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .navbar {
+    background: rgba(0, 0, 0, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-right: 20px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    color: #2199ea;
+  }
+  
+  .navbar a.active {
+    color: #2199ea;
+  }
+
+  .logopic{
+    width: 40px;
+    height: 28px;
+  }
+
+  .companyname{
+    height: 22px;
+
+  }
+
+  .centerText{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30vh;
+    color: #fff;
+  }
+
+  .divsContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: absolute;
+    bottom: 0; /* Position the .bottomDivs at the bottom of .home */
+    width: 100%;
+    height: 8vh;
+ }
+
+ .expandableDiv{
+  background-color: rgba(33, 153, 234, 0.6);
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  transition: height 0.3s, bottom 0.3s;
+  position: relative;
+  bottom: 0;
+  height: 25vh;
+  width: 33vw;
+ }
+
+ .expandableDiv1{
+  background-color: rgba(33, 153, 234, 0.6);
+  margin-left: 3.5%;
+  margin-right: 3.5%;
+  transition: height 0.3s, bottom 0.3s;
+  position: relative;
+  bottom: 0;
+  height: 100vh;
+  width: 33vw;
+}
+
+.expandableDiv1:hover {
+  height: 25vh;
+  bottom:10vh;
+  background-color: rgba(33, 153, 234, 0.6);
+}
+
+.expandableDiv:hover {
+  height: 25vh;
+  bottom:10vh;
+  background-color: rgba(33, 153, 234, 0.6);
+}
+
+.divTitle{
+  color: #fff;
+  font-size: 18px ;
+  font-weight: 400;
+  margin-bottom: 0.5vh;
+}
+
+.navBar:hover{
+  cursor: pointer;
+}

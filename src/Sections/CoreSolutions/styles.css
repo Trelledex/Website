@@ -1,0 +1,77 @@
+/* src/CoreSolutions.css */
+.core-solutions {
+    text-align: center;
+    padding: 0 15vw ;
+    padding-top: 10vh;
+    padding-bottom: 5vh;
+  }
+  
+  .section-title h1 {
+    font-weight: bold;
+    font-size: 28px;
+  }
+  
+  .section-title p {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .divider {
+    background-color: #cccccc;
+    height: 3px;
+    width: 50px;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  .solutions {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .solution {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .icon {
+    font-size: 36px;
+  }
+  
+  h2 {
+    font-weight: bold;
+    font-size: 24px;
+    margin: 10px 0;
+  }
+  
+  hr {
+    background-color: #2199ea;
+    height: 2px;
+    width: 30px;
+    margin: 10px 0;
+    opacity: 0.6;
+  }
+  
+    .description{
+    font-size: 18px;
+    color: #555;
+  }
+  
+  .title_black1{
+    color: #202020;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: -0.5vh;
+  }
+
+  .ic{
+    color: #2199ea;
+    font-size: 28px;
+  }
+
+  .miniTitle{
+    font-size: 18px;
+    font-weight: 500;
+  }

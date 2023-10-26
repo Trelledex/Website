@@ -1,0 +1,73 @@
+/* src/SocialMedia.css */
+.social-media {
+    background-image: url('../../assets/imgs/sm.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .section-title1 h1 {
+    font-weight: bold;
+    font-size: 36px;
+    color: white;
+  }
+  
+  .section-title1 p {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .divider1 {
+    background-color: #2199ea;
+    height: 3px;
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+  }
+  
+  .social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:20vw ;
+    padding-right: 20vw;
+  }
+  
+  .iconn {
+    flex: 1;
+    padding: 20px;
+  }
+
+  .mat-icon{
+    width: 100px;
+    height: 100px;
+    color: #fff;
+  }
+  
+  .iconn i {
+    font-size: 42px;
+    color: #2199ea;
+  }
+  
+  .inn{
+    color: #2199ea;
+    font-size: 60px;
+  }
+
+  p {
+    font-size: 18px;
+    color: white;
+  }
+  
+  .instagram-icon {
+    background: linear-gradient(45deg, #bc2a8d, #e95950);
+    -webkit-background-clip: text;
+    color: transparent;
+  }
+  
+  .iconn :hover
+  {
+    color: #2199ea;
+  }

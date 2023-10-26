@@ -1,0 +1,45 @@
+/* src/WhyUs.css */
+.why-us {
+    background-image: url('../../assets/imgs/sts.jpg'); /* Replace with your background image URL */
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 70px 0;
+    color: #fff
+    }
+  
+  .content1 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .why-us-item {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .icon {
+    font-size: 36px;
+ ;
+  }
+  
+  .number {
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: 10px;
+    color: #fff;
+  }
+  
+  .description0 {
+    font-size: 18px;
+    color: #a2a0a0;
+    margin-top: 10px;
+  }
+  
+  .in{
+    color: #2199ea;
+    font-size: 26px;
+  }

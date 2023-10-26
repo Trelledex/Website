@@ -1,0 +1,79 @@
+.disclaimer-container {
+    width: 55vw;
+    margin: 0 auto; 
+    padding: 20px; 
+    text-align: justify; 
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #000;
+    margin-top: 4vh;
+  }
+
+  .disc-text{
+    color: #000;
+  }
+
+  .navbar li :active{
+    color: #219ea2;
+  }
+
+  .active{
+    color: #2199ea;
+  }
+
+  
+
+.navbar-ds {
+    background: rgba(0, 0, 0, 0.8);
+    position: fixed !important; 
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 60px;
+  z-index: 9999;
+  }
+  
+  .navbar-ds ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .navbar-ds li {
+    margin-right: 20px;
+  }
+  
+  .navbar-ds a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-ds a:hover {
+    color: #2199ea;
+  }
+  
+  .navbar-ds a.active {
+    color: #2199ea;
+  }
+  
+  .logopic{
+    width: 40px;
+    height: 28px;
+  }
+  
+  .companyname{
+    height: 22px;
+  
+  }
+  
+
+  .navbar-ds li.active a {
+    color: #2199ea;
+  }
+  
