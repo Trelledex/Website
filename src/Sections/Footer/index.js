@@ -1,10 +1,15 @@
 // src/Footer.js
 import React from 'react';
 import './styles.css';
+import { Helmet } from 'react-helmet';
 
 const Footer = () => {
   return (
     <footer className="footer">
+         <Helmet>
+        <title>Trelledex</title>
+        <meta name="description" content="Trelledex is a consulting company" />
+      </Helmet>
       <div className="footer-content">
       <div className="logo">
           <img className='logopic'src={require("../../assets/logos/logoMain.png")} />

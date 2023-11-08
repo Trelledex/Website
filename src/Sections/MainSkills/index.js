@@ -1,9 +1,14 @@
 import React from 'react';
 import './styles.css'; // Import your CSS file for styling
+import { Helmet } from 'react-helmet';
 
 const OurMainSkills = () => {
   return (
     <section className="our-main-skills">
+      <Helmet>
+        <title>Trelledex</title>
+        <meta name="description" content="Trelledex is a consulting company" />
+      </Helmet>
       <div className='mainContainer'>
         <h2 className='Heading'>Our Main Skills</h2>
         <div className="skills-background">

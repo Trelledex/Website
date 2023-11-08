@@ -1,10 +1,15 @@
 // src/WhoWeAre.js
 import React from 'react';
 import './styles.css';
+import { Helmet } from 'react-helmet';
 
 const WhoWeAre = () => {
   return (
     <div className="who-we-are">
+      <Helmet>
+        <title>Trelledex</title>
+        <meta name="description" content="Trelledex is a consulting company" />
+      </Helmet>
       <h1 className='title_black'>WHO WE ARE</h1>
       <p className='subHeading'>Some things you should know about us</p>
       <div className="divider"></div>

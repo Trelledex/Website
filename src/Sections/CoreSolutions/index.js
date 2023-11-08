@@ -1,10 +1,15 @@
 // src/CoreSolutions.js
 import React from 'react';
 import './styles.css';
+import { Helmet } from 'react-helmet';
 
 const CoreSolutions = () => {
   return (
     <div className="core-solutions">
+      <Helmet>
+        <title>Trelledex</title>
+        <meta name="description" content="Trelledex is a consulting company" />
+      </Helmet>
       <div className="section-title">
           <h1 className='title_black1'>OUR CORE SOLUTIONS</h1>
           <p className='subHeading'>We are experts in developing your business</p>

@@ -1,10 +1,16 @@
 // src/Home.js
 import React from 'react';
 import './styles.css';
+import { Helmet } from 'react-helmet';
 
 const Home = () => {
   return (
     <div className="home">
+      <Helmet>
+        <title>Trelledex</title>
+        <meta name="description" content="Trelledex is a consulting company" />
+        <link rel="icon" href={base64Favicon} type="image/x-icon" />
+      </Helmet>
       <div className='centerText'>
         <h1>SIMPLY DATA</h1>
         <h3>INVESTING IN THE POTENTIAL OF PREDICTIVE ANALYTICS </h3>

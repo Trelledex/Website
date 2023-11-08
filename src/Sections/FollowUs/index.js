@@ -6,10 +6,15 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { Helmet } from 'react-helmet';
 
 const FollowUs = () => {
   return (
     <div className="social-media">
+      <Helmet>
+        <title>Trelledex</title>
+        <meta name="description" content="Trelledex is a consulting company" />
+      </Helmet>
       <div className="section-title1">
         <h1>Follow us on social media</h1>
         <p>We would love to hear from you</p>

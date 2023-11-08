@@ -2,10 +2,15 @@
 import React from 'react';
 import './styles.css';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import { Helmet } from 'react-helmet';
 
 const WhyUs = () => {
   return (
     <div className="why-us">
+      <Helmet>
+        <title>Trelledex</title>
+        <meta name="description" content="Trelledex is a consulting company" />
+      </Helmet>
       <div className="background-image"></div>
       <div className="content1">
         <div className="why-us-item">

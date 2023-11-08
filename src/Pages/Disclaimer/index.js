@@ -1,6 +1,7 @@
 import React from 'react';
 import './styles.css';
 import { useNavigate } from 'react-router-dom';
+import { Helmet } from 'react-helmet';
 
 const Disclaimer = () => {
 
@@ -13,6 +14,10 @@ const Disclaimer = () => {
 
   return (
     <>
+       <Helmet>
+        <title>Trelledex</title>
+        <meta name="description" content="Trelledex is a consulting company" />
+      </Helmet>
      <div className="navbar-ds">
         <div className="logo">
           <img className='logopic'src={require("../../assets/logos/logoMain.png")} />
