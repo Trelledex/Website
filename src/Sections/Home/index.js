@@ -9,8 +9,8 @@ const Home = () => {
       <Helmet>
         <title>Trelledex</title>
         <meta name="description" content="Trelledex is a consulting company" />
-        <link rel="icon" href={base64Favicon} type="image/x-icon" />
       </Helmet>
+
       <div className='centerText'>
         <h1>SIMPLY DATA</h1>
         <h3>INVESTING IN THE POTENTIAL OF PREDICTIVE ANALYTICS </h3>
@@ -27,7 +27,7 @@ const Home = () => {
         </div>  
         <div className='expandableDiv'>
             <p className="divTitle">Labs</p>
-            <p className='summary'>Analytics Projects, Solution Development, Implementation </p>
+            <p className='summary'>Analytics Projects, Sol. Development, Implementation </p>
         </div>
       </div>
     </div>

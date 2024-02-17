@@ -1,10 +1,12 @@
 /* Style the overall section */
+
+@media screen and (min-width: 1035px) {
 .our-main-skills {
     padding: 10px 0; /* Adjust padding as needed */
     text-align: center;
     color: #fff; /* Text color */
     width: 100vw;
-    height: 60vh;
+    height: 70vh;
     margin-bottom: 10vh;
   }
 
@@ -68,3 +70,87 @@
     border-radius: 4px; /* Rounded corners for bars */
     padding: 8px;
   }  
+}
+
+@media screen and (max-width: 1035px) {
+  .our-main-skills {
+    padding: 10px 0; /* Adjust padding as needed */
+    text-align: center;
+    color: #fff; /* Text color */
+    width: 100vw;
+    height: 75vh;
+    margin-bottom: 10vh;
+  }
+
+  .Heading{
+    margin-top: 50px ;
+  }
+  
+  /* Style the background container */
+  .skills-background {
+    padding-top: 50px;
+    padding-left: 8vw ;
+    padding-right: 8vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .mainContainer{
+    background-image: url("../../assets/imgs/rm.jpg");
+    background-size:cover;
+    padding: 10px;
+    width: 100vw;
+    height: 100%;
+    
+  }
+  
+  /* Style the left column */
+  .left-column {
+    flex: 1;
+    text-align: left;
+    padding-right: 20px;
+  }
+  
+  .skill-description p {
+    font-size: 18px;
+    margin-bottom: 10px;
+    margin-top: -120px;
+  }
+  
+  /* Style the right column */
+  .right-column {
+    flex: 1;
+    text-align: left;
+  }
+  
+  .skill-bar {
+    margin-bottom: 15px;
+  }
+  
+  .skill-bar span {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: #fff; /* Text color for skill names */
+  }
+  
+  .bar {
+    height: 20px;
+    background-color: #0000005e; /* Yellow color for bars */
+    border-radius: 4px; /* Rounded corners for bars */
+    padding: px;
+    font-size: small !important;
+  }  
+
+  .barContent{
+    font-size: small !important;
+
+  }
+
+}
+
+@media screen and (min-width: 900px) {
+    
+}

@@ -1,4 +1,7 @@
 /* src/WhoWeAre.css */
+
+/* Laptop */
+@media screen and (min-width: 768px) {
 .who-we-are {
     text-align: center;
     padding: 50px 0;
@@ -73,3 +76,90 @@
     height: 150px;
     margin-top: -24px;
   }
+}
+
+/* Tablet */
+@media screen and (max-width: 767px) {
+  .who-we-are {
+    text-align: center;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .who-we-are h2 {
+    font-weight: bold;
+    font-size: 36px;
+  }
+  
+  .who-we-are p {
+    font-size: 18px;
+    margin-top: -15px;
+    color: #555;
+  }
+  
+  .content {
+    display: flex;
+    margin-top: 65px;
+    /* margin-left: 20vw;
+    margin-right: 20vw; */
+    width: 80vw;
+    justify-self: left;
+    padding-left: -10vw;
+  }
+  
+  .left img {
+    max-width: 100px;
+    max-height: 200px;
+    margin-right: 2vw;
+    margin-left: -22vw;
+  }
+  
+  .right {
+    text-align: left;
+    margin-top: -2vh;
+    float:inline-start;
+    margin-right: -15vw;
+  }
+  
+  .divider {
+    width: 15%;
+    height: 3px;
+    background-color: #2199ea;
+    margin: 20px 0;
+    align-self: center;
+  }
+
+  
+.read-more {
+    background-color: #2199ea;
+    color: white;
+    padding: 10px 26px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-left: 0;
+  }
+  
+  .read-more:hover {
+    background-color: #0a7abb;
+  }
+
+  .title_black{
+    color: #202020;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 4vh;
+  }
+
+  .smallImg{
+    width: 150px;
+    height: 150px;
+    margin-top: -24px;
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 560px) {
+}

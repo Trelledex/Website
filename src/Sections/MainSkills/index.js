@@ -31,32 +31,32 @@ const OurMainSkills = () => {
             <div className="right-column">
             <div className="skill-bar">
                 <div className="bar" style={{ width: '100%' }}>
-                  <span>1. Data Analysis & Statistics</span>
+                  <span className="barContent">1. Data Analysis & Statistics</span>
                 </div>
             </div>
             <div className="skill-bar">
                 <div className="bar" style={{ width: '85%' }}>
-                  <span>2. Data Visualization</span>
+                  <span className="barContent">2. Data Visualization</span>
                 </div>
             </div>
             <div className="skill-bar">
                 <div className="bar" style={{ width: '70%' }}>
-                  <span>3. Design</span>
+                  <span className="barContent">3. Design</span>
                 </div>
             </div>
             <div className="skill-bar">
                 <div className="bar" style={{ width: '100%' }}>
-                  <span>4. Strategy</span>
+                  <span className="barContent">4. Strategy</span>
                 </div>
             </div>
             <div className="skill-bar">
                 <div className="bar" style={{ width: '85%' }}>
-                  <span>5. Business Intelligence</span>
+                  <span className="barContent">5. Business Intelligence</span>
                 </div>
             </div>
             <div className="skill-bar">
-                <div className="bar" style={{ width: '68%' }}>
-                  <span>6. Project Management</span>
+                <div className="bar" style={{ width: '78%' }}>
+                  <span className="barContent">6. Project Management</span>
                 </div>
             </div>
             </div>
